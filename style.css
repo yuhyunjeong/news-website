@@ -16,8 +16,8 @@ body {
   overflow: hidden;
   background-color: rgb(35, 27, 142);
 
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 1200px; /* Limits the maximum width */
+  margin: 0 auto; /* Centers the nav element horizontally */
 
   border-top: 1px solid gray;
   border-left: 1px solid gray;
@@ -34,6 +34,19 @@ body {
   text-decoration: none;
 
   border-right: 1px solid gray;
+}
+
+.nav a.home:hover {
+  border-top: 3px solid rgb(245, 143, 143);
+}
+.nav a.world:hover {
+  border-top: 3px solid rgb(251, 150, 96);
+}
+.nav a.culture:hover {
+  border-top: 3px solid rgb(74, 175, 252);
+}
+.nav a.sport:hover {
+  border-top: 3px solid rgb(250, 247, 78);
 }
 
 .content-container {
