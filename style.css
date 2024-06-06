@@ -4,8 +4,20 @@ body {
 
 .header {
   position: relative;
-  height: 50px;
+  height: 30px;
   background-color: navy;
+}
+.header .top {
+}
+.top a {
+  float: right;
+  text-align: center;
+
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+
+  padding: 5px 10px;
+  text-decoration: none;
 }
 
 .nav-container {
@@ -29,6 +41,9 @@ body {
   text-align: center;
 
   color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: larger;
+  font-weight: bold;
 
   padding: 14px 16px;
   text-decoration: none;
