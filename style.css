@@ -66,7 +66,7 @@ body {
   border-top: 4px solid rgb(250, 247, 78);
 }
 
-.content-container {
+.content {
   max-width: 1200px;
   margin: 0 auto;
 
@@ -75,10 +75,19 @@ body {
   border-left: 1px solid gray;
   border-right: 1px solid gray;
 }
-.content {
-}
 
 .footer {
   height: 200px;
   background-color: grey;
+}
+
+/* home */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.headline {
+  padding: 20px;
+  border-right: 1px solid gray;
 }
