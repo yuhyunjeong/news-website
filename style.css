@@ -83,11 +83,20 @@ body {
 
 /* home */
 .container {
+  height: 100%;
+
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  grid-template-columns: 1fr 4fr;
 }
 .headline {
-  padding: 20px;
   border-right: 1px solid gray;
+}
+.title {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  font-size: xx-large;
+  letter-spacing: -1px;
+
+  margin-left: 25px;
+  margin-top: 10px;
 }
