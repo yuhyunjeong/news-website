@@ -100,3 +100,56 @@ body {
   margin-left: 25px;
   margin-top: 10px;
 }
+.contents {
+  height: 100%;
+
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+.fst-content {
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+
+  padding: 5px;
+}
+.snd-content {
+  border-bottom: 1px solid gray;
+
+  padding: 5px;
+}
+.trd-content {
+  border-right: 1px solid gray;
+
+  padding: 5px;
+}
+.fth-content {
+  padding: 5px;
+}
+
+.article {
+  border-top: 1px solid rgb(246, 85, 85);
+
+  height: 400px;
+
+  margin: 0px;
+
+  background-color: rgb(226, 226, 226);
+
+  display: grid;
+  grid-template-rows: auto auto; /* allow both rows to automatically adjust */
+}
+.image {
+  background-color: lightgray;
+  height: 400px;
+}
+
+.text {
+  background-color: white;
+  height: 93px;
+  overflow: auto; /* handle overflow content by scroll bar */
+  box-sizing: border-box; /* Ensure padding and border are included in the height */
+}
+.text h3,
+.text p {
+  margin: 5px;
+}

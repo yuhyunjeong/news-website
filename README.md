@@ -59,3 +59,31 @@ fetch(url)
 - This effectively replaces the content of the content element with the new data
 
 ## 🛠️ Trouble shooting
+
+### different heights for the elements
+
+Cause: the difference in the content of the divs
+
+Solution:
+Set a Fixed Height
+
+```
+.article {
+  height: 400px;
+
+  margin: 0px;
+
+  display: grid;
+  grid-template-rows: auto auto; /* allow both rows to automatically adjust */
+}
+.image {
+  height: 400px;
+}
+
+.text {
+  height: 93px;
+  box-sizing: border-box; /* Ensure padding and border are included in the height,  preventing unexpected changes in size */
+
+}
+
+```
