@@ -138,6 +138,7 @@ body {
   display: grid;
   grid-template-rows: auto auto; /* allow both rows to automatically adjust */
 }
+
 .image {
   background-color: lightgray;
   height: 400px;
