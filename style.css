@@ -76,11 +76,6 @@ body {
   border-right: 1px solid gray;
 }
 
-.footer {
-  height: 200px;
-  background-color: grey;
-}
-
 /* home */
 .sub-menu {
   border-bottom: 1px solid gray;
@@ -95,12 +90,13 @@ body {
 }
 
 .container {
-  height: 100%;
+  height: 90%;
 
   display: grid;
   grid-template-columns: 1fr 4fr;
 }
 .headline {
+  height: 60px;
   border-right: 1px solid gray;
 }
 .title {
@@ -116,10 +112,11 @@ body {
   height: 100%;
 
   display: grid;
+
   grid-template-columns: 3fr 1fr;
 }
 .fst-content {
-  border-right: 1px solid gray;
+  /*border-right: 1px solid gray;*/
   border-bottom: 1px solid gray;
 
   padding: 5px;
@@ -130,7 +127,7 @@ body {
   padding: 5px;
 }
 .trd-content {
-  border-right: 1px solid gray;
+  /*border-right: 1px solid gray;*/
 
   padding: 5px;
 }
@@ -153,7 +150,7 @@ body {
 
 .image {
   background-color: lightgray;
-  height: 400px;
+  height: 350px;
 }
 
 .text {
@@ -165,4 +162,53 @@ body {
 .text h3,
 .text p {
   margin: 5px;
+}
+
+.footer {
+  background-color: rgb(35, 27, 142);
+}
+.footer-nav-container {
+  padding-bottom: 150px;
+}
+.footer-nav {
+  overflow: hidden;
+  background-color: rgb(35, 27, 142);
+
+  max-width: 1200px; /* Limits the maximum width */
+  margin: 0 auto; /* Centers the nav element horizontally */
+
+  border-bottom: 1px solid gray;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+.footer-nav a {
+  float: left;
+  display: block;
+  text-align: center;
+
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: larger;
+  font-weight: bold;
+
+  padding: 14px 16px;
+  text-decoration: none;
+
+  border-right: 1px solid gray;
+
+  transition: border-bottom 0.3s ease; /* Adjust the duration and timing function as needed */
+}
+
+.footer-nav a.home:hover {
+  border-bottom: 4px solid rgb(245, 143, 143);
+}
+.footer-nav a.world:hover {
+  border-bottom: 4px solid rgb(251, 150, 96);
+}
+.footer-nav a.culture:hover {
+  border-bottom: 4px solid rgb(74, 175, 252);
+}
+.footer-nav a.sport:hover {
+  border-bottom: 4px solid rgb(250, 247, 78);
 }
