@@ -58,6 +58,14 @@ fetch(url)
 - When the response text is ready, it updates the innerHTML of contentElement with the fetched data
 - This effectively replaces the content of the content element with the new data
 
+### reset the scroll position to the top of the page
+
+```
+  function resetScrollPosition() {
+    window.scrollTo(0, 0);
+  }
+```
+
 ## 🛠️ Trouble shooting
 
 ### different heights for the elements

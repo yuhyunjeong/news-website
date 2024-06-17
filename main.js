@@ -5,11 +5,17 @@ document.addEventListener("DOMContentLoaded", () => {
     button.addEventListener("click", () => {
       const contentUrl = button.getAttribute("data-content");
       loadContent(contentUrl);
+      resetScrollPosition();
     });
   });
 
   // Load initial content (optional)
   loadContent("home.html");
+
+  // Function to reset scroll position
+  function resetScrollPosition() {
+    window.scrollTo(0, 0);
+  }
 
   function loadContent(url) {
     fetch(url)
