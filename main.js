@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Load initial content (optional)
-  loadContent("home.html");
+  loadContent("news/home/home.html");
 
   // reset scroll position
   function resetScrollPosition() {
