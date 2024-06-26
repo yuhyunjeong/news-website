@@ -146,6 +146,12 @@ body {
 
   display: grid;
   grid-template-rows: auto auto; /* allow both rows to automatically adjust */
+
+  text-decoration: none;
+  color: navy;
+}
+.article:hover {
+  text-decoration: underline;
 }
 
 .image {
